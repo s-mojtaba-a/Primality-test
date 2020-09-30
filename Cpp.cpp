@@ -10,7 +10,7 @@ bool is_prime(T n){
     if (n==2){
         return 1 ;
     }
-    if (n%2==0){
+    if (n%2==0 && n==1){
         return 0;
     }
     T i=3 ;
@@ -31,7 +31,7 @@ def is_prime(n):
      '''
     if n==2:
         return 1
-    if n%2==0 :
+    if n%2==0 and n==1:
         return 0
     i=3
     while (i*i<=n):
